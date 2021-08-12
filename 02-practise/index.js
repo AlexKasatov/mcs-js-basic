@@ -16,4 +16,4 @@ let totalPurchases = earringsSum + watchesSum;
 
 let totalBalance = totalCash >= totalPurchases;
 
-console.log(totalBalance);
+document.body.innerHTML =  totalBalance
