@@ -14,6 +14,6 @@ let watchesSum = parseInt(watchesCount) * parseInt(watchesCost);
 
 let totalPurchases = earringsSum + watchesSum;
 
-let totalBalance = totalCash >= totalPurchases;
+let totalBalance = parseInt(totalCash) >= totalPurchases;
 
-document.body.innerHTML =  totalBalance
+document.body.innerHTML = totalBalance;
