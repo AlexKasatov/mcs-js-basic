@@ -1,0 +1,12 @@
+@import url(reset.css);
+
+body {
+  background-color: aqua;
+}
+
+.imageBlock {
+  width: 500px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}

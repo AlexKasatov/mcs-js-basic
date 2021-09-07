@@ -1,0 +1,82 @@
+@import url(reset.css);
+
+html {
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: rgb(205, 255, 251);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  margin-left: 50px;
+  font-weight: 900;
+}
+.header__nav {
+  margin-right: 50px;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.header__links {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.main {
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.price-block {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  
+}
+.price-block__place-holder {
+}
+.price-block__heading {
+  font-weight: 600;
+  padding: 10px 0;
+}
+.price-block__price {
+}
+.price_block__price-bar {
+  height: 20px;
+  width: 100%;
+  background-color: hotpink;
+}
+
+.price_block__price-bar.price_block__price-bar_btc {
+  background-color: orange;
+}
+
+.price_block__price-bar.price_block__price-eth {
+  background-color: aquamarine;
+}
+
+.price_block__price-bar.price_block__price-bar_ltc {
+  background-color: blue;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+
+}

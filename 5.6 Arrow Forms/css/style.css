@@ -1,0 +1,37 @@
+@import url(reset.css);
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.label,
+.input {
+  display: block;
+  margin: auto;
+  align-content: center;
+}
+
+/* .input[type="text"] {
+  display: inline-block;
+  vertical-align: middle;
+} */
+.submit {
+  margin: 30px;
+}
+
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
