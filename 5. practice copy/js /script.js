@@ -15,13 +15,9 @@ form.onsubmit = function (e) {
   e.preventDefault();
   console.log("submited");
   coinValue[0].innerHTML = formBtc.value;
-  barWidth[0].style.width = "" + (formBtc.value/100) + "%";
+  barWidth[0].style.width = "" + formBtc.value / 100 + "%";
   coinValue[1].innerHTML = formEth.value;
-  barWidth[1].style.width = "" + (formEth.value/100) + "%";
+  barWidth[1].style.width = "" + formEth.value / 100 + "%";
   coinValue[2].innerHTML = formLtc.value;
-  barWidth[2].style.width = "" + (formLtc.value/100) + "%";
-
+  barWidth[2].style.width = "" + formLtc.value / 100 + "%";
 };
-
-
-

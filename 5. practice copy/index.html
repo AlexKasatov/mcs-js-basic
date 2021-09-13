@@ -26,25 +26,40 @@
     <section class="container">
       <div class="price-block">
         <div class="price-block__place-holder">
-          <h3 class="price-block__heading price-block__heading_btc"></h3>
-          <span class="price-block__price price-block__price_btc"></span>
+          <h3 class="price-block__heading">Bitcoin</h3>
+          <span class="price-block__price"></span>
           <div class="price_block__price-bar price_block__price-bar_btc"></div>
         </div>
         <div class="price-block__place-holder">
-          <h3 class="price-block__heading price-block__heading_eth"></h3>
-          <span class="price-block__price price-block__price_eth"></span>
+          <h3 class="price-block__heading">Ethereum</h3>
+          <span class="price-block__price"></span>
           <div class="price_block__price-bar price_block__price-eth"></div>
         </div>
         <div class="price-block__place-holder">
-          <h3 class="price-block__heading price-block__heading_ltc"></h3>
-          <span class="price-block__price price-block__price_ltc"></span>
+          <h3 class="price-block__heading">Litecoin</h3>
+          <span class="price-block__price"></span>
           <div class="price_block__price-bar price_block__price-bar_ltc"></div>
         </div>
       </div>
     </section>
-   
+    <section class="container">
+      <form action="">
+        <label for="change">Изменить цену BTC</label>
+        <input type="number" name="btcPriceHolder" id="btcPriceHolder" />
+        <input type="submit" value="Изменить" />
+
+        <label for="eth-price-holder">Изменить цену ETH</label>
+        <input type="number" name="ethPriceHolder" id="ethPriceHolder" />
+        <input type="submit" value="Изменить" />
+
+        <label for="ltc-price-holder">Изменить цену LTC</label>
+        <input type="number" name="ltcPriceHolder" id="ltcPriceHolder" />
+        <input type="submit" value="Изменить" />
+
+      </form>
+    </section>
   </main>
-  <script src="./js /index.js"></script>
+  <script src="./js /script.js"></script>
 </body>
 
 </html>
