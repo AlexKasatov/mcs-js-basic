@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta discription="js" />
+    <meta keywords="java script" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <title>JS course</title>
+  </head>
+  <body>
+    <header>Now Your Temp</header>
+    <main class="main">
+      <form action="">
+        <fieldset>
+          <label for="city">Your City</label>
+          <input type="text" name="city" id="city" placeholder="type here" />
+          <input type="submit" value="GO">
+        </fieldset>
+      </form>
+
+      <div class="pop-up-container">
+        <div class="pop-up">
+          <div class="closePopup">
+            <i class="fas fa-times"></i>
+          </div>
+          <div class="pop-up__text-block">
+            
+            <h1>Temperature in <span id="cityName"></span>: <span id='temp'></span> </h1>
+            <h1>Wind Speed in <span id="cityName">: <span id="windSpeed"></span></span> </h1>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/api.json"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
