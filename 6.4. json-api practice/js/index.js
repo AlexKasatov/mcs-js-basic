@@ -1,17 +1,15 @@
 const myForm = document.forms[0];
-let formValue = myForm[1].value;
 const element = document.getElementById('insert')
-
-const APIKEY = "b410debdf0251026955d60b4b62d0776";
-let cityName = formValue;
-const url =
+  
+function sendRequest() {
+  const APIKEY = "b410debdf0251026955d60b4b62d0776";
+  let formValue = myForm[1].value;
+  const url =
   "http://api.openweathermap.org/data/2.5/weather?q=" +
-  cityName +
+  formValue +
   "&appid=" +
   APIKEY;
 
-  
-function sendRequest() {
   let xhr = new XMLHttpRequest();
 
   xhr.open("GET", url, false);
@@ -38,7 +36,6 @@ function sendRequest() {
 myForm.onsubmit = function (e) {
   e.preventDefault();
   console.log("submited");
-  cityName = formValue
   sendRequest()
 
 };
