@@ -25,8 +25,8 @@ function percentage(partialValue) {
 const container = document.getElementById("items"); // нашли в разметке контейнер куда надо добавлять элементы
 container.classList.add("price-block"); // стилизовали контейнер
 
-const priceBlock = document.createElement("div");
-container.append(priceBlock);
+// const priceBlock = document.createElement("div");
+// container.append(priceBlock);
 
 crypto.forEach((currency) => {
   const myElement = document.createElement("div"); // для каждого элемента массива создали div
