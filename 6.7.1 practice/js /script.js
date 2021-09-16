@@ -14,10 +14,14 @@ class angryTiger extends Tiger {
 }
 
 const tigerJohn = new Tiger('John')
-console.log(tigerJohn.name);
-console.log(tigerJohn.feedCat());
+// console.log(tigerJohn.name);
+// console.log(tigerJohn.feedCat());
+
 
 const tigerBob = new angryTiger('Bob')
-console.log(tigerBob.name);
-console.log(tigerBob.feedCat());
-console.log(tigerBob.throwDart());
+// console.log(tigerBob.name);
+// console.log(tigerBob.feedCat());
+// console.log(tigerBob.throwDart());
+
+tigerBob.throwDart()
+tigerJohn.feedCat()
